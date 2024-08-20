@@ -1,3 +1,13 @@
+function copyArray(arr) {
+  let copy = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    copy[i] = arr[i];
+  }
+
+  return copy;
+}
+
 function sumToN(n) {
     if (n <= 0) return 0;
     
